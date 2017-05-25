@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A9F456C78961E1B94F46C37 /* Pods_ZGToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEB4C43065D402527CF4299 /* Pods_ZGToast.framework */; };
 		F901CD981ED6BD9F001E7C94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F901CD971ED6BD9F001E7C94 /* main.m */; };
 		F901CD9B1ED6BD9F001E7C94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F901CD9A1ED6BD9F001E7C94 /* AppDelegate.m */; };
 		F901CD9E1ED6BD9F001E7C94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F901CD9D1ED6BD9F001E7C94 /* ViewController.m */; };
 		F901CDA11ED6BD9F001E7C94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F901CD9F1ED6BD9F001E7C94 /* Main.storyboard */; };
 		F901CDA31ED6BD9F001E7C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F901CDA21ED6BD9F001E7C94 /* Assets.xcassets */; };
 		F901CDA61ED6BD9F001E7C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F901CDA41ED6BD9F001E7C94 /* LaunchScreen.storyboard */; };
+		F901CDAF1ED6BDE2001E7C94 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = F901CDAE1ED6BDE2001E7C94 /* UIView+Toast.m */; };
+		F901CDB31ED6C02F001E7C94 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = F901CDB21ED6C02F001E7C94 /* 57.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9120815373735727F64E83B2 /* Pods-ZGToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGToast.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZGToast/Pods-ZGToast.release.xcconfig"; sourceTree = "<group>"; };
+		AF4D2F3A190F5DCACDA3CBD8 /* Pods-ZGToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGToast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZGToast/Pods-ZGToast.debug.xcconfig"; sourceTree = "<group>"; };
 		F901CD931ED6BD9E001E7C94 /* ZGToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F901CD971ED6BD9F001E7C94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F901CD991ED6BD9F001E7C94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,10 @@
 		F901CDA21ED6BD9F001E7C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F901CDA51ED6BD9F001E7C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F901CDA71ED6BD9F001E7C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F901CDAD1ED6BDE2001E7C94 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		F901CDAE1ED6BDE2001E7C94 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		F901CDB21ED6C02F001E7C94 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		FEEB4C43065D402527CF4299 /* Pods_ZGToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZGToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9F456C78961E1B94F46C37 /* Pods_ZGToast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7275802AEB5644F25FA01BFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEEB4C43065D402527CF4299 /* Pods_ZGToast.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		992F491CAE450A3FAA26F466 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF4D2F3A190F5DCACDA3CBD8 /* Pods-ZGToast.debug.xcconfig */,
+				9120815373735727F64E83B2 /* Pods-ZGToast.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F901CD8A1ED6BD9E001E7C94 = {
 			isa = PBXGroup;
 			children = (
 				F901CD951ED6BD9E001E7C94 /* ZGToast */,
 				F901CD941ED6BD9E001E7C94 /* Products */,
+				992F491CAE450A3FAA26F466 /* Pods */,
+				7275802AEB5644F25FA01BFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +87,9 @@
 		F901CD951ED6BD9E001E7C94 /* ZGToast */ = {
 			isa = PBXGroup;
 			children = (
+				F901CDB21ED6C02F001E7C94 /* 57.png */,
+				F901CDAD1ED6BDE2001E7C94 /* UIView+Toast.h */,
+				F901CDAE1ED6BDE2001E7C94 /* UIView+Toast.m */,
 				F901CD991ED6BD9F001E7C94 /* AppDelegate.h */,
 				F901CD9A1ED6BD9F001E7C94 /* AppDelegate.m */,
 				F901CD9C1ED6BD9F001E7C94 /* ViewController.h */,
@@ -86,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F901CDAA1ED6BD9F001E7C94 /* Build configuration list for PBXNativeTarget "ZGToast" */;
 			buildPhases = (
+				C34FB27CF10C991197A80D06 /* [CP] Check Pods Manifest.lock */,
 				F901CD8F1ED6BD9E001E7C94 /* Sources */,
 				F901CD901ED6BD9E001E7C94 /* Frameworks */,
 				F901CD911ED6BD9E001E7C94 /* Resources */,
+				7C1C4B2D5FEFFA079D315149 /* [CP] Embed Pods Frameworks */,
+				B4EDF57A0801988E677ECB2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F901CDB31ED6C02F001E7C94 /* 57.png in Resources */,
 				F901CDA61ED6BD9F001E7C94 /* LaunchScreen.storyboard in Resources */,
 				F901CDA31ED6BD9F001E7C94 /* Assets.xcassets in Resources */,
 				F901CDA11ED6BD9F001E7C94 /* Main.storyboard in Resources */,
@@ -146,11 +182,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C1C4B2D5FEFFA079D315149 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGToast/Pods-ZGToast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4EDF57A0801988E677ECB2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGToast/Pods-ZGToast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C34FB27CF10C991197A80D06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F901CD8F1ED6BD9E001E7C94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F901CDAF1ED6BDE2001E7C94 /* UIView+Toast.m in Sources */,
 				F901CD9E1ED6BD9F001E7C94 /* ViewController.m in Sources */,
 				F901CD9B1ED6BD9F001E7C94 /* AppDelegate.m in Sources */,
 				F901CD981ED6BD9F001E7C94 /* main.m in Sources */,
@@ -273,6 +358,7 @@
 		};
 		F901CDAB1ED6BD9F001E7C94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4D2F3A190F5DCACDA3CBD8 /* Pods-ZGToast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8XD8H5EW3F;
@@ -285,6 +371,7 @@
 		};
 		F901CDAC1ED6BD9F001E7C94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9120815373735727F64E83B2 /* Pods-ZGToast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8XD8H5EW3F;
@@ -314,6 +401,7 @@
 				F901CDAC1ED6BD9F001E7C94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
