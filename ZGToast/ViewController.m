@@ -32,7 +32,7 @@
     
     UIImageView *img=[[UIImageView alloc] init];
     img.image=[UIImage imageNamed:@"57.png"];
-    img.frame=CGRectMake(0, 0, 50, 50);
+//    img.frame=CGRectMake(0, 0, 20, 20);
     
     [self.view showToast:img title:@"123"];
 }
